@@ -126,7 +126,7 @@ numpy >= 1.19.0
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/vae-gan-implementation.git
+git clone [https://github.com/yourusername/vae-gan-implementation.git](https://github.com/NANInithin/Generative-Models-VAE-vs-GAN)
 cd vae-gan-implementation
 
 # Create virtual environment (recommended)
