@@ -20,7 +20,7 @@ LATENT_DIM = 100
 IMG_SIZE = 28 # Fashion-MNIST size
 
 # Create results directory
-os.makedirs("GAN/results/gan_results", exist_ok=True)
+os.makedirs("results/gan_results", exist_ok=True)
 print(f"Using device: {DEVICE}")
 
 # 1. Dataset Loading
@@ -149,6 +149,7 @@ for epoch in range(EPOCHS):
     with torch.no_grad():
         fake = netG(fixed_noise).detach().cpu()
         # Denormalize from [-1, 1] to [0, 1] for saving
-        save_image(fake * 0.5 + 0.5, f'GAN/results/gan_results/gan_epoch_{epoch+1}.png')
+        save_image(fake * 0.5 + 0.5, f'results/gan_results/gan_epoch_{epoch+1}.png')
+
 
 print("GAN Training Completed.")
