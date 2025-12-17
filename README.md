@@ -221,6 +221,6 @@ All code used in this project is available in the following files:
 - `train_wgan.py` - Wasserstein GAN with weight clipping
 
 Generated results are saved in:
-- `GAN/results/vae_results/` - VAE outputs
-- `GAN/results/gan_results/` - Standard GAN outputs
-- `GAN/results/wgan_results/` - WGAN outputs
+- `results/vae_results/` - VAE outputs
+- `results/gan_results/` - Standard GAN outputs
+- `results/wgan_results/` - WGAN outputs
